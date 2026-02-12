@@ -9,33 +9,45 @@
 
 <body>
     <header>
+
         <h1>Gabriel Berlanda</h1>
         <nav>
+
             <h2>Sumário</h2>
             <ol>
+
                 <li><a href="#Sobre mim">Sobre mim</a></li>
                 <li><a href="#Projetos">Projetos</a></li>
                 <li><a href="#Contatos">Contato</a></li>
+
             </ol>
+
         </nav>
+
     </header>
     <section id="Sobre mim">
+
         <h2>Sobre mim</h2>
         <img src="WhatsApp Image 2026-01-05 at 20.41.30.png" alt="Minha foto">
         <p>
             Meu nome é Gabriel, moro em Santa Catarina (SC) e estou em processo de formação como programador.
         </p>
+
     </section> <br>
     <section id="Projetos">
+
         <h2>Projetos / Habilidades</h2>
         <section>
+
             <h3>Projetos</h3>
             <ul>
                 <li>Este site</li>
                 <li>Alguns exercícios utilizando python</li>
             </ul>
+
         </section>
         <section>
+
             <h3>Habilidades</h3>
             <ul>
                 <li>Facilidade de aprendizado e adaptação</li>
@@ -44,12 +56,53 @@
 
                 <li>Pensamento racional</li>
             </ul>
+
         </section>
     </section><br>
     <footer>
         <section id="Contatos">
+
             <h2>Contato:</h2>
-            <a href="mailto:GabrielBerlanda14@gmail.com">Mande um email: GabrielBerlanda14@gmail.com</a>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" required>
+
+                <br>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+
+                <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone">
+
+                <br>
+
+                <label for="assinto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber meus emails?</label>
+
+                <br>
+
+                <input type="submit" name="enviar" id="enviar">
+                
+            </form>
+
         </section>
     </footer>
 </body>
